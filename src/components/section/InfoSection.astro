@@ -1,0 +1,19 @@
+---
+const {encabezado, encabezado2, texto,img,descripcion}=Astro.props
+---
+<article class="flex flex-col justify-center items-center relative ">
+    <div class="w-[70%] m-4  justify-start items-center ">
+    <h1 class="text-4xl leading-[1.2em]">
+    {encabezado}
+</h1>
+<h2 class="text-2xl font-semibold mb-8 mt-4 text-[#c1c1c1]">
+    {encabezado2}
+</h2>
+<p class="text-left">
+    <slot/>
+</p>
+</div>
+<div class="absolute top-0 bottom-0 h-full -z-10 ">
+    <img class="object-center object-cover h-screen w-screen opacity-20" src={img} alt={descripcion}>
+</div>
+</div>
