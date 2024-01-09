@@ -1,0 +1,29 @@
+---
+import Header from '../components/Header.astro';
+import '@fontsource-variable/sora';
+const { title } = Astro.props;
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta title={title}/>
+  </head>
+  <body>
+    <Header/>
+    <slot/>
+  </body>
+</html>
+<style is:global>
+  *{
+    font-family: 'Sora Variable', sans-serif;
+   color-scheme: dark; 
+  }
+  body{
+    background-color: #0d1436;
+  }
+  p{
+    font-size: 1.125rem/* 18px */;
+    line-height: 1.75rem/* 28px */;
+  }
+</style>
