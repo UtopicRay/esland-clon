@@ -12,6 +12,7 @@ const {encabezado, encabezado2, texto,img,descripcion}=Astro.props
 <p class="text-left">
     <slot/>
 </p>
+<slot/>
 </div>
 <div class="absolute top-0 bottom-0 h-full -z-10 ">
     <img class="object-center object-cover h-screen w-screen opacity-20" src={img} alt={descripcion}>
