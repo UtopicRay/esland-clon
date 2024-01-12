@@ -1,14 +1,19 @@
 ---
 import InfoSection from "./InfoSection.astro";
+
+
+const imagen1 = "../../public/img/grefposing.png";
+const imagen2 = "../../public/img/pistas.png";
 ---
 
-<section class="flex flex-grow relative overflow-hidden h-screen w-screen">
-  <div class="grid md:grid-cols-2 w-full">
+<section class="flex flex-grow relative overflow-hidden w-screen">
+  <div class="grid md:grid-cols-2 sm:grid-cols-1 w-full ">
     <InfoSection
       encabezado="LA ALFOMBRA BLANCA"
       encabezado2="16 de febrero de 2024"
-      img="../../public/img/pistas.png"
-      descripcion="foto del paisaje">
+      img={imagen2}
+      descripcion="foto del paisaje"
+    >
       Este año, el momento de la alfombra azul será sustituido y mejorado,
       gracias a los increíbles paisajes andorranos, por una <strong
         >alfombra blanca en plena nieve</strong
@@ -17,8 +22,9 @@ import InfoSection from "./InfoSection.astro";
     <InfoSection
       encabezado="LA GALA"
       encabezado2="17 de febrero de 2024"
-      img="../../public/img/grefposing.png"
-      descripcion="foto del paisaje">
+      img={imagen1}
+      descripcion="foto del paisaje"
+    >
       Una gala de premios llena de contenido de <strong
         >primer nivel y muchas sorpresas</strong
       >, en la que se descubrirán los <strong>ganadores</strong> de esta tercera
