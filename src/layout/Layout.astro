@@ -1,34 +1,43 @@
 ---
-import Header from '../components/Header.astro';
-import '@fontsource-variable/sora';
+import Header from "../components/Header.astro";
+import "@fontsource-variable/sora";
+import Prefooter from "../components/Prefooter.astro";
+import Footer from "../components/Footer.astro";
 const { title } = Astro.props;
-const { currentLocale } =Astro;
+const { currentLocale } = Astro;
 ---
+
 <html lang={currentLocale}>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta title={title}/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta title={title} />
   </head>
   <body>
-    <Header/>
-    <slot/>
+    <Header />
+    <slot />
+    <Prefooter/>
+    <Footer/>
   </body>
 </html>
 <style is:global>
-  *{
-    font-family: 'Sora Variable', sans-serif;
-   color-scheme: dark; 
+  * {
+    font-family: "Sora Variable", sans-serif;
+    color-scheme: dark;
   }
-  body{
+  body {
     background-color: #0d1436;
   }
-  h1{
+  h1 {
     font-weight: bold;
     transform: uppercase;
   }
-  p{
-    font-size: 1.125rem/* 18px */;
-    line-height: 1.75rem/* 28px */;
+  p {
+    font-size: 1.125rem /* 18px */;
+    line-height: 1.75rem /* 28px */;
+  }
+
+  a:hover {
+   box-shadow: 0 3px 4px 0 white;
   }
 </style>
