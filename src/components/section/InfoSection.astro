@@ -1,9 +1,9 @@
 ---
-const { encabezado, encabezado2, texto, img, descripcion } = Astro.props;
+const { encabezado, encabezado2, img, descripcion } = Astro.props;
 ---
 
-<article class="flex flex-col justify-center items-center relative">
-  <div class="w-[70%] m-4 justify-start items-center">
+<article class="flex flex-col justify-center items-center relative h-screen ">
+  <div class="w-[70%] m-4">
     <h1 class="text-4xl leading-[1.2em]">
       {encabezado}
     </h1>
@@ -15,9 +15,9 @@ const { encabezado, encabezado2, texto, img, descripcion } = Astro.props;
     </p>
     <slot />
   </div>
-  <div class="absolute top-0 bottom-0 h-full -z-10">
+  <div class="absolute h-full left-0 right-0 top-0 -z-10">
     <img
-      class="object-center object-cover h-screen w-screen opacity-20"
+      class="object-center object-cover h-full  w-screen opacity-20"
       src={img}
       alt={descripcion}
     />
