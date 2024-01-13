@@ -11,7 +11,7 @@
             alt="logo-esland"
           />
         </a>
-        <nav class="pt-16">
+        <nav class="pt-16 sm:mb-0 mb-6">
           <ul
             class="flex flex-wrap justify-between items-center [&&>li]:w-[32px] gap-x-6"
           >
@@ -59,7 +59,7 @@
           <li><a>ARCHIVO</a></li>
         </ul>
       </div>
-      <div class="partition">
+      <div class="partition ">
         <h1>Producido por:</h1>
         <svg
           id="Capa_1"
@@ -90,6 +90,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 1.6rem;
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: 640px) {
+    .partition{
+      margin-bottom: auto;
+    }
+    
   }
 </style>
