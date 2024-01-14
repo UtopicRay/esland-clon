@@ -1,0 +1,18 @@
+---
+const {title,img,descripcion}=Astro.props
+---
+<article class="flex flex-col md:flex-grow justify-center md:items-start sm:items-center h-screen w-full relative">
+    <h1 class="text-4xl text-left sm:text-center">{title}</h1>
+    <div class="reltative sm:absolute  w-full top-0 bottom-0">
+        <img
+          class="sm:h-screen h-full object-center object-cover sm:float-right float-none m-auto w-full opacity-60"
+          src={img}
+          alt={descripcion}
+        />
+      </div>
+      <div class="pb-8 sm:pb-0 sm:w-full  flex flex-col m-auto  sm:items-start items-center  mt-10   z-10">
+    <slot />
+  </div>
+</div>
+
+</article>
