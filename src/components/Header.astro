@@ -1,14 +1,102 @@
-<header class="bg-[#000527]">
-<nav class="flex flex-grow justify-between items-center px-24 py-4  text-white font-xl text-xl">
-    <div class="flex justify-center items-center">
-        <img class='mr-8' src='../../public/img/logo-header.png' alt='logo-de-esland'>
-        <a class='px-8 py-4' href='#'>INFO</a>
-        <a class='px-6 py-4' href='#'>ARCHIVO</a>
-        <a class='px-6 py-4' href='#'>VOTA</a>
+<header class="bg-[#000527] w-full">
+  <nav class="bg-[#000527] border-gray-200 text-white font-xl text-xl">
+    <div
+      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+    >
+      <a
+        href="https://flowbite.com/"
+        class="flex items-center space-x-3 rtl:space-x-reverse"
+      >
+        <img
+          class="mr-8"
+          src="../../public/img/logo-header.png"
+          alt="logo-de-esland"
+        />
+      </a>
+      <button
+        data-collapse-toggle="navbar-default"
+        type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Open main menu</span>
+        <svg
+          class="w-5 h-5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 17 14"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15"></path>
+        </svg>
+      </button>
+      <div
+        class="hidden w-full md:flex md:w-auto flex-grow justify-between items-center "
+        id="navbar-default"
+      >
+        <div >
+          <ul
+            class="flex flex-col justify-center items-center p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-6 px-3 rounded md:bg-transparent md:p-0"
+                aria-current="page">INFO</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-6 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent"
+                >ARCHIVO</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-6 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent"
+                >VOTA</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="flex flex-grow md:justify-end justify-center items-center">
+          <a
+            class="border-[1px] px-4 py-3 rounded-[75px] text-xl border-white"
+            href="#"
+            >CRITERIOS DE NOMINACIÓN
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="flex flex-grow justify-end">
-        <a class='border-[1px] px-6 py-3 rounded-[75px] text-xl border-white' href='#'>CRITERIOS DE NOMINACIÓN
-        </a> 
-    </div>
-</nav>
+  </nav>
 </header>
+<style>
+  @keyframes .active {
+    0% {
+        opacity: 0;
+        transform: translateY(2rem/* 32px */);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.active {
+    animation: fade-up 1s both;
+}
+</style>
+<script>
+  const selector= document.querySelector("button");
+  const selector2= document.getElementById('navbar-default');
+  selector?.addEventListener('click',()=>{
+  selector2?.classList.add("animate-fade-down")
+  })
+</script>
