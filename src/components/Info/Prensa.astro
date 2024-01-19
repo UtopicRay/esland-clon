@@ -1,0 +1,16 @@
+---
+interface Props {
+    title: string;
+    img: string;
+    descripcion: string;
+    href: string;
+}
+const {title,img,descripcion,href}=Astro.props;
+---
+<div class="flex flex-col justify-center items-center lg:w-auto w-[70%] mx-auto mt-10 lg:mt-0 ">
+    <h1 class="text-xl text-center">{title}</h1>
+    <a href={href}>
+    <img class="h-auto max-w-full my-4" src={img} alt={descripcion}>
+    <a href={href} class="lg:border-[1px] border-[2px] rounded-3xl text-base  text-center px-12 py-2 lg:mt-2 mt-8">DESCARGAR</button>
+</a>
+</div>
