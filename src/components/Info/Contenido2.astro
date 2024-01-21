@@ -1,15 +1,81 @@
-<section class="w-full lg:h-screen h-full">
-  <article>
-    <h1>El Premio a la Creación</h1>
-    <img class="" src="../../../public/img/info-img4.webp" alt="" />
-    <p>
-      El trofeo que se entrega a los ganadores y ganadoras en la ceremonia es
-      una representación de la letra “A” dividida en tres fragmentos y
-      ensambladas a modo de artilugio futurista sobre el que se construye la
-      narrativa del evento. Un artefacto de origen desconocido que dota de
-      herramientas y habilidades para la creación. Una metáfora sobre la
-      emancipación del talento gracias a la tecnología y la irrupción de los
-      creadores de contenido en el mundo del entretenimiento.
-    </p>
+<section
+  class="w-full h-full relative overflow-hidden flex justify-center items-center
+  background bg-gradient-to-b from-[rgb(0,212,255)] to-[rgba(13,20,54,1)]"
+>
+  <article
+    class="w-full flex flex-col lg:items-end items-center h-full max-w-[85%] lg:py-32 py-10 relative container"
+  >
+    <h1
+      class="lg:text-4xl text-2xl py-10 text-center lg:text-left lg:max-w-[40%] font-medium uppercase"
+    >
+      El Premio a la Creación
+    </h1>
+    <div class="reltative lg:absolute w-full left-0 z-0">
+      <img
+        class="h-auto lg:w-1/2 w-full object-center"
+        src="../../../public/img/info-img4.webp"
+        alt=""
+      />
+    </div>
+    <div class="w-full flex flex-col lg:items-end mx-auto text-left z-10">
+      <p class="text-xl mt-4 leading-normal lg:max-w-[40%] font-extralight">
+        El trofeo que se entrega a los ganadores y ganadoras en la ceremonia es
+        <strong
+          >una representación de la letra “A” dividida en tres fragmentos</strong
+        >y ensambladas a modo de artilugio futurista sobre el que se construye
+        la narrativa del evento.
+      </p>
+      <p class="mt-8 text-xl leading-normal lg:max-w-[40%] font-extralight">
+        Un artefacto de origen desconocido que dota de <strong
+          >herramientas y habilidades para la creación.</strong
+        >Una metáfora sobre la emancipación del talento gracias a la tecnología
+        y la irrupción de los creadores de contenido en el mundo del
+        entretenimiento.
+      </p>
+    </div>
   </article>
 </section>
+<style>
+  section {
+    background: linear-gradient(45deg, #0d1436, #00d4ff);
+    background-size: 400% 400%;
+
+    -webkit-animation: Background-animated 8s ease infinite;
+    -moz-animation: Background-animated 8s ease infinite;
+    animation: Background-animated 8s ease infinite;
+  }
+
+  @-webkit-keyframes Background-animated {
+    0% {
+      background-position: 0% 47%;
+    }
+    50% {
+      background-position: 100% 54%;
+    }
+    100% {
+      background-position: 0% 47%;
+    }
+  }
+  @-moz-keyframes Background-animated {
+    0% {
+      background-position: 0% 47%;
+    }
+    50% {
+      background-position: 100% 54%;
+    }
+    100% {
+      background-position: 0% 47%;
+    }
+  }
+  @keyframes Background-animated {
+    0% {
+      background-position: 0% 47%;
+    }
+    50% {
+      background-position: 100% 54%;
+    }
+    100% {
+      background-position: 0% 47%;
+    }
+  }
+</style>
