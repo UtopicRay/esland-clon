@@ -1,6 +1,59 @@
-<section class="flex flex-col justify-center items-center">
-    <h1>Los ESLAND en números</h1>
-    <h1>227</h1>
+<section class="w-full h-full">
+  <article
+    class="p-20 flex flex-col justify-center items-center h-full md:[&&>h2]:text-5xl [&&>h2]:text-2xl [&&>h1]:mt-16
+    [&&>h1]:uppercase [&&>h2]:uppercase [&&>h2]:font-extralight"
+  >
+    <h1 class="lg:text-7xl text-3xl">Los ESLAND en números</h1>
+    <h1
+      class="value md:text-[7.5rem] text-5xl"
+      akhi="277"
+      style="
+    text-shadow: rgba(255,255,255,0.95) 0px 0px 53px;
+    "
+    >
+      0
+    </h1>
     <h2>Noticias en la prensa</h2>
-
+    <h1
+      class="md:text-[7.5rem] text-5xl"
+      style="
+    text-shadow: rgba(255,255,255,0.95) 0px 0px 53px;
+    "
+    >
+      +
+      <span class="value" akhi="69.9">0</span>M
+    </h1>
+    <h2>de visualizaciones</h2>
+    <h1
+      class="md:text-[7.5rem] text-5xl"
+      style="
+    text-shadow: rgba(255,255,255,0.95) 0px 0px 53px;
+    "
+    >
+      +
+      <span class="value" akhi="3.2">0</span>M€
+    </h1>
+    <h2 class="mb-20">en medios ganados</h2>
+  </article>
 </section>
+<script>
+  const counters = document.querySelectorAll(".value");
+  const speed = 200;
+
+  counters.forEach((counter) => {
+    const animate = () => {
+      const value = +counter.getAttribute("akhi");
+      const data = +counter.textContent;
+
+      const time = value / speed;
+      if (data < value) {
+        counter.textContent = Math.ceil(data + time);
+        setTimeout(animate, 1);
+      } else {
+        counter.textContent = value;
+      }
+    };
+
+    animate();
+  });
+</script>
