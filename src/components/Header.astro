@@ -1,0 +1,79 @@
+<header class="bg-[#000527] w-full">
+  <nav class="bg-[#000527] border-gray-200 text-white font-xl text-xl">
+    <div
+      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+    >
+      <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img
+          class=""
+          src="../../public/img/logo-header.png"
+          alt="logo-de-esland"
+        />
+      </a>
+      <button
+        data-collapse-toggle="navbar-default"
+        type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Open main menu</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-dots-vertical"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+            d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path><path
+            d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path><path
+            d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path></svg
+        >
+      </button>
+      <div
+        class="hidden w-full md:flex md:w-auto flex-grow justify-between items-center ml-8"
+        id="navbar-default"
+      >
+        <div>
+          <ul
+            class="flex flex-col justify-center items-center p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="/Info"
+                class="block py-6 px-3 rounded md:bg-transparent md:p-0"
+                aria-current="page">INFO</a
+              >
+            </li>
+            <li>
+              <a
+                href="/Archivo"
+                class="block py-6 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0"
+                >ARCHIVO</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="flex flex-grow md:justify-end justify-center items-center">
+          <a
+            class="border-[1px] px-4 py-3 rounded-[75px] text-xl border-white content"
+            href="#"
+            >CRITERIOS DE NOMINACIÓN
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<script>
+  const selector = document.querySelector("button");
+  const selector2 = document.getElementById("navbar-default");
+  selector?.addEventListener("click", () => {
+    selector2?.classList.add("animate-fade-down");
+  });
+</script>
