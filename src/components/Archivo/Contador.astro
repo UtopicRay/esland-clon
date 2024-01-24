@@ -6,7 +6,7 @@
     <h1 class="lg:text-7xl text-3xl">Los ESLAND en números</h1>
     <h1
       class="value md:text-[7.5rem] text-5xl"
-      akhi="277"
+      data-akhi="277"
       style="
     text-shadow: rgba(255,255,255,0.95) 0px 0px 53px;
     "
@@ -21,7 +21,7 @@
     "
     >
       +
-      <span class="value" akhi="69.9">0</span>M
+      <span class="value" data-akhi="69.9">0</span>M
     </h1>
     <h2>de visualizaciones</h2>
     <h1
@@ -31,29 +31,28 @@
     "
     >
       +
-      <span class="value" akhi="3.2">0</span>M€
+      <span class="value" data-akhi="3.2">0</span>M€
     </h1>
     <h2 class="mb-20">en medios ganados</h2>
   </article>
 </section>
 <script>
   const counters = document.querySelectorAll(".value");
-  const speed = 200;
+  let speed = 200;
 
   counters.forEach((counter) => {
     const animate = () => {
-      const value = +counter.getAttribute("akhi");
-      const data = +counter.textContent;
+      const value = +counter.getAttribute("data-akhi")!;
+      const data = +counter.textContent!;
 
       const time = value / speed;
-      if (data < value) {
+      if (data < +value) {
         counter.textContent = Math.ceil(data + time);
         setTimeout(animate, 1);
       } else {
         counter.textContent = value;
       }
     };
-
     animate();
   });
 </script>
