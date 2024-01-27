@@ -9,7 +9,7 @@ export default function Nominacion() {
   };
   return (
     <div className="grid grid-cols-2 mt-10 gap-10 w-full">
-      <ul className="[&&>li]:text-xl">
+      <ul className="md:[&&>li]:text-xl [&&>li]:text-sm">
         <li className="bg-[#000527] w-full">
           <div className="flex flex-grow justify-between w-full">
             <span className="m-2 font-semibold">Categoría</span>

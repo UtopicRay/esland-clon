@@ -6,7 +6,6 @@ import Footer from "../components/Footer.astro";
 import { ViewTransitions } from "astro:transitions";
 const { title } = Astro.props;
 const { currentLocale } = Astro;
-import "flowbite";
 ---
 
 <html lang={currentLocale}>
@@ -14,9 +13,9 @@ import "flowbite";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta title={title} />
-    <ViewTransitions />
     <script src="../../node_modules/flowbite/dist/flowbite.min.js" defer
     ></script>
+    <script src="../components/service/script.js" defer></script>
   </head>
   <body>
     <Header />

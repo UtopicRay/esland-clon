@@ -10,7 +10,7 @@
           alt="logo-de-esland"
         />
       </a>
-      <button
+      <button id="nav-btn"
         data-collapse-toggle="navbar-default"
         type="button"
         class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -71,7 +71,7 @@
   </nav>
 </header>
 <script>
-  const selector = document.querySelector("button");
+  const selector = document.querySelector("#nav-btn");
   const selector2 = document.getElementById("navbar-default");
   selector?.addEventListener("click", () => {
     selector2?.classList.add("animate-fade-down");
