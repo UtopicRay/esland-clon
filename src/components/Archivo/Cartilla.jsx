@@ -3,7 +3,7 @@ import { UseChangeCard } from "../hook/useChangeCard";
 export function Cartilla({objet}) {
   const { element} = UseChangeCard(objet);
   return (
-    <>
+    <div id="card" className="flex flex-wrap gap-10 justify-center items-end">
       <div
         id="cartilla"
         className="bg-[#1682c7] animate-fade-left animate-duration-[800ms] animate-ease-linear"
@@ -66,6 +66,6 @@ export function Cartilla({objet}) {
           </h3>
         </div>
       </div>
-    </>
+    </div>
   );
 }
