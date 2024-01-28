@@ -5,6 +5,19 @@ import Nominacion from "./Nominacion";
 <section class="w-full">
   <article class="p-20 w-full flex flex-col items-center h-auto relative">
     <h1 class="text-4xl uppercase">Palmarés</h1>
-    <Nominacion client:visible/>
+    <Nominacion client:visible />
   </article>
 </section>
+<script>
+  var x = window.matchMedia("(width<=768px)");
+  const y = document.getElementById("card");
+  window.addEventListener("resize", () => ChangeDisplay());
+  window.addEventListener("load", () => ChangeDisplay()); //
+  function ChangeDisplay() {
+    if (x.matches) {
+      y?.classList.add("hidden");
+    } else {
+      y?.classList.remove("hidden");
+    }
+  }
+</script>
