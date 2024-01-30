@@ -1,0 +1,22 @@
+---
+interface Props {
+  id: string;
+  title: string;
+}
+const { id, title } = Astro.props;
+---
+
+<section class="w-full p-20 max-w-[1300px] mx-auto">
+  <lite-youtube
+    class="shadow-2xl shadow-white/10"
+    videoid={id}
+    videotitle={title}></lite-youtube>
+  <h3
+    class="uppercase text-4xl font-bold text-balance tracking-wide text-center mt-10"
+  >
+    <slot />
+  </h3>
+</section>
+<script>
+  import "@justinribeiro/lite-youtube";
+</script>

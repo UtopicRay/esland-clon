@@ -1,0 +1,54 @@
+---
+import Youtube from "../Youtube.astro";
+---
+
+<main>
+  <div class="grid grid-cols-2 [&&>div>h1]:font-semibold">
+    <div
+      class="flex justify-center items-center uppercase bg-inherit h-24 text-xl active"
+    >
+      <h1 class="">Primera Edición</h1>
+    </div>
+    <div
+      class="flex justify-center items-center uppercase inactive h-24 text-xl"
+    >
+      <h1>Segunda Edición</h1>
+    </div>
+  </div>
+  <div id="video1">
+    <Youtube id="aL8kcA3ZDOs" title="Primera edicion de los Esland" />
+  </div>
+  <div id="video2" class="hidden">
+    <Youtube id="9VHqKbR9LgM" title="Segunda edicion de los Esland" />
+  </div>
+</main>
+<style>
+  h1:hover {
+    text-shadow: rgba(255, 255, 255, 0.95) 0px 0px 53px;
+  }
+  .active {
+    text-shadow: rgba(255, 255, 255, 0.95) 0px 0px 53px;
+  }
+  .inactive {
+    background-color: rgb(63 131 248);
+  }
+</style>
+<script>
+  const elements = document.querySelector(".active");
+  const element = document.querySelector(".inactive");
+  const video1 = document.getElementById("video1");
+  const video2 = document.getElementById("video2");
+
+  elements?.addEventListener("click", () =>
+    changeProperties(elements, element,video1,video2));
+  element?.addEventListener("click", () => changeProperties(element, elements,video2,video1));
+  function changeProperties(y, z, x, w) {
+    console.log(y);
+    y?.classList.add("inactive");
+    y?.classList.remove("active");
+    z?.classList.add("active");
+    z?.classList.remove("inactive");
+    x.classList.remove("hidden");
+    w.classList.add("hidden");
+  }
+</script>
