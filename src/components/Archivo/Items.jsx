@@ -1,4 +1,4 @@
-import CollectionImg from "../hook/useShowMore.json";
+import CollectionImg from "../hook/galleryimage.json";
 import PhotoSwipeLightbox from "photoswipe/lightbox";
 import "photoswipe/style.css";
 import { useState, useEffect } from "react";
