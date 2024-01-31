@@ -28,6 +28,7 @@ export default function Nominacion() {
             <span className="m-2 font-light">Streamer del año</span>
             <span className="m-2 font-light">Ibai</span>
           </div>
+          <CartillaPequeña object={target}/>
         </li>
         <li
           onClick={(e, x) => ChangeTarget(e, 2)}

@@ -1,9 +1,12 @@
-<main class="flex flex-col justify-center items-center w-full bg-cover bg-center h-full bg-repeat"
-style="background-image: url('../../../public/img/home-bg-1.png');">
-    <img class="w-12 pb-14 pt-28" src="../../public/img/logo.png" />
-  <div class="pb-20 [&&>p]:mt-10 [&&>p]:text-xl [&&>p]:font-extralight [&&>p]:text-left [&&>p]:sm:max-w-[45%] [&&>p]:max-w-[80%]  [&&>p]:mx-auto  w-full ">
-    <h1 class="text-4xl text-center  mb-3">
-      Bienvenidos/as a <br>los Premios ESLAND
+<main
+  class="flex flex-col justify-center items-center w-full bg-cover bg-center h-full relative"
+>
+  <img class="w-12 pb-14 pt-28 logo" src="../../public/img/logo.png" />
+  <div
+    class="pb-20 [&&>p]:mt-10 [&&>p]:text-xl [&&>p]:font-extralight [&&>p]:text-left [&&>p]:sm:max-w-[45%] [&&>p]:max-w-[80%] [&&>p]:mx-auto w-full"
+  >
+    <h1 class="text-4xl text-center mb-3">
+      Bienvenidos/as a <br />los Premios ESLAND
     </h1>
     <p>
       El cine tiene los Oscars, la música tiene los Grammy y el <strong
@@ -18,10 +21,20 @@ style="background-image: url('../../../public/img/home-bg-1.png');">
         algunos de los mejores momentos del año.</strong
       >
     </p>
-    <p>
+    <p class="logo">
       Tras dos galas celebradas, una en el Palau de la Música Catalana de
       Barcelona, y otra en el Auditorio Nacional de la Ciudad de México, solo
       queda esperar a la <strong>tercera edición en Andorra.</strong>
     </p>
   </div>
 </main>
+<script>
+  import scrollreveal from "scrollreveal"
+  scrollreveal().reveal(".logo",{
+    origin: 'bottom',
+    duration: 1000, // Animation duration in milliseconds
+    delay: 200,    // Delay before starting the animation
+    opacity: 0,    // Initial opacity (0 for fully transparent)
+    viewFactor: 0.5 
+  })
+  </script>

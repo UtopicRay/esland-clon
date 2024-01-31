@@ -31,7 +31,7 @@ export function Cartilla({objet}) {
           <h3 className="uppercase text-xl font-bold">
             total:
             <span className="value uppercase" data-akhi={element.total1}>
-            {element.total1}
+            {element.total}
             </span>
             %
           </h3>

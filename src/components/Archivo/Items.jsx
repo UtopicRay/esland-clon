@@ -50,7 +50,7 @@ export function Items() {
           </div>
         ))}
       </div>
-      <div id="slider" class="relative overflow-hidden rounded-lg h-96 hidden gallery">
+      <div id="slider" className="relative overflow-hidden rounded-lg h-96 hidden gallery">
         {imagen.map((img, index) => (
           <div
             id="items"
