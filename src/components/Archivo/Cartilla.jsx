@@ -3,10 +3,10 @@ import { UseChangeCard } from "../hook/useChangeCard";
 export function Cartilla({objet}) {
   const { element} = UseChangeCard(objet);
   return (
-    <div id="card" className="flex flex-wrap gap-10 justify-center items-end">
+    <div id="card" className="lg:flex flex-wrap gap-10 justify-center items-end hidden animate-fade-left animate-duration-[800ms] ">
       <div
         id="cartilla"
-        className="bg-[#1682c7] animate-fade-left animate-duration-[800ms] animate-ease-linear"
+        className="bg-[#1682c7] "
         style={{ boxShadow: "0 0 25px 7px #7886ff" }}
       >
         <img
@@ -37,7 +37,7 @@ export function Cartilla({objet}) {
           </h3>
         </div>
       </div>
-      <div id="cartilla2" className="bg-[#1682c7] animate-fade-left animate-duration-[900ms] animate-ease-linear">
+      <div id="cartilla2" className="bg-[#1682c7]">
         <img
           className="h-auto max-w-56 bg-[#1682c7] mix-blend-luminosity"
           src={element.img2}

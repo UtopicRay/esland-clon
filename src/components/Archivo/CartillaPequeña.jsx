@@ -2,10 +2,10 @@ import { UseChangeCard } from "../hook/useChangeCard";
 export function CartillaPequeña({object}) {
     const  {element}= UseChangeCard(object);
     return (
-    <>
+    <div div id="card-peque" className="lg:hidden block animate-fade-up animate-duration-1000">
       <div
         id="cartilla-pequeña"
-        className="bg-[#1682c7] flex w-full"
+        className="bg-[#1682c7] flex w-full "
       >
         <img
           className="h-auto max-w-full bg-[#1682c7] mix-blend-luminosity"
@@ -64,6 +64,6 @@ export function CartillaPequeña({object}) {
           </h3>
         </div>
       </div>
-    </>
+    </div>
   );
 }

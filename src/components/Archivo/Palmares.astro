@@ -8,16 +8,3 @@ import Nominacion from "./Nominacion";
     <Nominacion client:visible />
   </article>
 </section>
-<script>
-  var x = window.matchMedia("(width<=768px)");
-  const y = document.getElementById("card");
-  window.addEventListener("resize", () => ChangeDisplay());
-  window.addEventListener("load", () => ChangeDisplay()); //
-  function ChangeDisplay() {
-    if (x.matches) {
-      y?.classList.add("hidden");
-    } else {
-      y?.classList.remove("hidden");
-    }
-  }
-</script>
