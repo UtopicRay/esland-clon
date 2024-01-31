@@ -1,5 +1,7 @@
 import CollectionImg from "../hook/useShowMore.json";
-import { useState } from "react";
+import PhotoSwipeLightbox from "photoswipe/lightbox";
+import "photoswipe/style.css";
+import { useState, useEffect } from "react";
 
 export function Items() {
   const [imagen, setImgs] = useState(CollectionImg.imgs);
@@ -9,24 +11,46 @@ export function Items() {
     SetshowMore(!showMore);
   };
 
+  useEffect(() => {
+    let lightbox = new PhotoSwipeLightbox({
+      gallery: ".gallery",
+      children: "a",
+      showHideAnimationType: 'zoom',
+      pswpModule: () => import("photoswipe"),
+    });
+    lightbox.init();
+
+    return () => {
+      lightbox.destroy();
+      lightbox = null;
+    };
+  }, []);
   return (
     <div
       id="custom-controls-gallery"
       className="relative w-full"
       data-carousel="slide"
     >
-      <div id="important" className="grid grid-cols-3 gap-4">
+      <div id="important" className="grid grid-cols-3 gap-4 pswp-gallery gallery hover:scale-120">
         {imagen.map((img, index) => (
           <div
             id="items"
             key={index}
             className={index > 5 && !showMore ? "hidden" : ""}
           >
-            <img className="h-auto max-w-full" src={img.url} alt={img.alt} />
+            <a className="aspect-square  "
+              href={img.url}
+              data-pswp-width="700"
+              data-cropped="true"
+              data-pswp-height="767"
+              target="_blank"
+            >
+              <img className="object-cover aspect-square" loading="lazy" src={img.url} alt={img.alt} />
+            </a>
           </div>
         ))}
       </div>
-      <div id="slider" class="relative overflow-hidden rounded-lg h-96 hidden">
+      <div id="slider" class="relative overflow-hidden rounded-lg h-96 hidden gallery">
         {imagen.map((img, index) => (
           <div
             id="items"
@@ -34,11 +58,15 @@ export function Items() {
             className="hidden duration-700 ease-in-out h-full"
             data-carousel-item
           >
-            <img
-              class="absolute block max-w-full h-auto"
-              src={img.url}
-              alt={img.alt}
-            />
+             <a
+              href={img.url}
+              data-pswp-width="800"
+              data-pswp-height="600"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="h-auto max-w-full" src={img.url} alt={img.alt} />
+              </a>
           </div>
         ))}
       </div>
