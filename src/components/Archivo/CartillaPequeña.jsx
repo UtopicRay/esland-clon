@@ -2,7 +2,7 @@ import { UseChangeCard } from "../hook/useChangeCard";
 export function CartillaPequeña({object}) {
     const  {element}= UseChangeCard(object);
     return (
-    <div div id="card-peque" className="lg:hidden block animate-fade-up animate-duration-1000">
+    <div div id="card-peque" className={`lg:hidden block ${(object%2==0)?'animate-fade-down':'animate-fade-up'} animate-duration-300`}>
       <div
         id="cartilla-pequeña"
         className="bg-[#1682c7] flex w-full "
