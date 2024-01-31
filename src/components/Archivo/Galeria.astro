@@ -11,20 +11,3 @@ import { Items } from "./Items";
     <Items client:visible />
   </article>
 </section>
-<script>
-  var x = window.matchMedia("(width<=640px)");
-  const y = document.getElementById("slider");
-  const z = document.getElementById("important");
-
-  window.addEventListener("resize", () => ChangeDisplay());
-  window.addEventListener("load", () => ChangeDisplay()); //
-  function ChangeDisplay() {
-    if (x.matches) {
-      z?.classList.add("hidden");
-      y?.classList.remove("hidden");
-    } else {
-      z?.classList.remove("hidden");
-      y?.classList.add("hidden");
-    }
-  }
-</script>

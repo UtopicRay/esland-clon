@@ -31,7 +31,7 @@ export function Items() {
       className="relative w-full"
       data-carousel="slide"
     >
-      <div id="important" className="grid grid-cols-3 gap-4 pswp-gallery gallery hover:scale-120">
+      <div id="important" className="md:grid grid-cols-3 gap-4 pswp-gallery gallery hover:scale-120 hidden">
         {imagen.map((img, index) => (
           <div
             id="items"
@@ -50,7 +50,7 @@ export function Items() {
           </div>
         ))}
       </div>
-      <div id="slider" className="relative overflow-hidden rounded-lg h-96 hidden gallery">
+      <div id="slider" className="relative overflow-hidden rounded-lg h-96 md:hidden block gallery">
         {imagen.map((img, index) => (
           <div
             id="items"
@@ -72,14 +72,14 @@ export function Items() {
       </div>
       <div className="flex justify-center items-center pt-4">
         <button
-          className="border-[1px] rounded-3xl mt-20 font-light text-sm text-center px-8 py-4  uppercase content hidden sm:flex"
+          className="border-[1px] rounded-3xl mt-20 font-light text-sm text-center px-8 py-4  uppercase content hidden md:flex"
           onClick={() => HandleClick()}
         >
           {showMore ? "Mostrar menos" : "Descúbrelas todas"}
         </button>
         <button
           type="button"
-          className="flex justify-center items-center me-4 h-full cursor-pointer group focus:outline-none sm:hidden"
+          className="flex justify-center items-center me-4 h-full cursor-pointer group focus:outline-none md:hidden"
           data-carousel-prev
         >
           <span className="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
@@ -103,7 +103,7 @@ export function Items() {
         </button>
         <button
           type="button"
-          className="flex justify-center items-center h-full cursor-pointer group focus:outline-none sm:hidden"
+          className="flex justify-center items-center h-full cursor-pointer group focus:outline-none md:hidden"
           data-carousel-next
         >
           <span className="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
