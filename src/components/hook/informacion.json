@@ -8,10 +8,10 @@
     "comunidad2": "32.85",
     "streamer2": "8.1",
     "total2": "20.48",
-    "img1": "../../../public/img/palmares/ibai.webp",
-    "img2": "../../../public/img/palmares/auronplay.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/peque1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_streamer2.webp"
+    "img1": "/img/palmares/ibai.webp",
+    "img2": "/img/palmares/auronplay.webp",
+    "imgp1": "/img/palmares/pequeños/peque1.webp",
+    "imgp2": "/img/palmares/pequeños/m_streamer2.webp"
   },
   {
     "name1": "tortillaland",
@@ -22,10 +22,10 @@
     "comunidad2": "26.09",
     "streamer2": "40.6",
     "total2": "33.35",
-    "img1": "../../../public/img/palmares/serie1.webp",
-    "img2": "../../../public/img/palmares/serie2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_serie2.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_serie3.webp"
+    "img1": "/img/palmares/serie1.webp",
+    "img2": "/img/palmares/serie2.webp",
+    "imgp1": "/img/palmares/pequeños/m_serie2.webp",
+    "imgp2": "/img/palmares/pequeños/m_serie3.webp"
   },
   {
     "name1": "elxokas",
@@ -36,10 +36,10 @@
     "comunidad2": "30.38",
     "streamer2": "27",
     "total2": "28.69",
-    "img1": "../../../public/img/palmares/revelacion1.webp",
-    "img2": "../../../public/img/palmares/revelacion2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_revelacion1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_revelacion2.webp"
+    "img1": "/img/palmares/revelacion1.webp",
+    "img2": "/img/palmares/revelacion2.webp",
+    "imgp1": "/img/palmares/pequeños/m_revelacion1.webp",
+    "imgp2": "/img/palmares/pequeños/m_revelacion2.webp"
   },
   {
     "name1": "la velada del año",
@@ -50,10 +50,10 @@
     "comunidad2": "27.27",
     "streamer2": "18.9",
     "total2": "23.1",
-    "img1": "../../../public/img/palmares/evento1.webp",
-    "img2": "../../../public/img/palmares/evento2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_evento1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_evento2.webp"
+    "img1": "/img/palmares/evento1.webp",
+    "img2": "/img/palmares/evento2.webp",
+    "imgp1": "/img/palmares/pequeños/m_evento1.webp",
+    "imgp2": "/img/palmares/pequeños/m_evento2.webp"
   },
   {
     "name1": "Fernanfloo",
@@ -64,10 +64,10 @@
     "comunidad2": "19.68",
     "streamer2": "37.8",
     "total2": "28.74",
-    "img1": "../../../public/img/palmares/trayectoria1.webp",
-    "img2": "../../../public/img/palmares/trayectoria2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_trayectoria1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_trayectoria2.webp"
+    "img1": "/img/palmares/trayectoria1.webp",
+    "img2": "/img/palmares/trayectoria2.webp",
+    "imgp1": "/img/palmares/pequeños/m_trayectoria1.webp",
+    "imgp2": "/img/palmares/pequeños/m_trayectoria2.webp"
   },
   {
     "name1": "The Wild Project",
@@ -78,10 +78,10 @@
     "comunidad2": "16.05",
     "streamer2": "21.6",
     "total2": "18.83",
-    "img1": "../../../public/img/palmares/talkshow1.webp",
-    "img2": "../../../public/img/palmares/talkshow2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_talkshow1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_talkshow2.webp"
+    "img1": "/img/palmares/talkshow1.webp",
+    "img2": "/img/palmares/talkshow2.webp",
+    "imgp1": "/img/palmares/pequeños/m_talkshow1.webp",
+    "imgp2": "/img/palmares/pequeños/m_talkshow2.webp"
   },
   {
     "name1": "El cuarteto de Ibai",
@@ -92,10 +92,10 @@
     "comunidad2": "10.41",
     "streamer2": "29.7",
     "total2": "20.1",
-    "img1": "../../../public/img/palmares/cancion1.webp",
-    "img2": "../../../public/img/palmares/cancion2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_cancion1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_cancion2.webp"
+    "img1": "/img/palmares/cancion1.webp",
+    "img2": "/img/palmares/cancion2.webp",
+    "imgp1": "/img/palmares/pequeños/m_cancion1.webp",
+    "imgp2": "/img/palmares/pequeños/m_cancion2.webp"
   },
   {
     "name1": "Jägger boxeador",
@@ -106,10 +106,10 @@
     "comunidad2": "34.19",
     "streamer2": "24.3",
     "total2": "29.25",
-    "img1": "../../../public/img/palmares/jagger1.webp",
-    "img2": "../../../public/img/palmares/jagger2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_jagger1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_jagger2.webp"
+    "img1": "/img/palmares/jagger1.webp",
+    "img2": "/img/palmares/jagger2.webp",
+    "imgp1": "/img/palmares/pequeños/m_jagger1.webp",
+    "imgp2": "/img/palmares/pequeños/m_jagger2.webp"
   },
   {
     "name1": "Kidi",
@@ -120,10 +120,10 @@
     "comunidad2": "51.39",
     "streamer2": "16.2",
     "total2": "33.79",
-    "img1": "../../../public/img/palmares/irl1.webp",
-    "img2": "../../../public/img/palmares/irl2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_irl1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_irl2.webp"
+    "img1": "/img/palmares/irl1.webp",
+    "img2": "/img/palmares/irl2.webp",
+    "imgp1": "/img/palmares/pequeños/m_irl1.webp",
+    "imgp2": "/img/palmares/pequeños/m_irl2.webp"
   },
 
   {
@@ -135,10 +135,10 @@
     "comunidad2": "24.41",
     "streamer2": "29.7",
     "total2": "27.1",
-    "img1": "../../../public/img/palmares/caster1.webp",
-    "img2": "../../../public/img/palmares/caster2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_caster1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_caster2.webp"
+    "img1": "/img/palmares/caster1.webp",
+    "img2": "/img/palmares/caster2.webp",
+    "imgp1": "/img/palmares/pequeños/m_caster1.webp",
+    "imgp2": "/img/palmares/pequeños/m_caster2.webp"
   },
   {
     "name1": "Cristinini",
@@ -149,10 +149,10 @@
     "comunidad2": "18.79",
     "streamer2": "43.2",
     "total2": "31",
-    "img1": "../../../public/img/palmares/reportero1.webp",
-    "img2": "../../../public/img/palmares/reportero2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_reportero1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_reportero2.webp"
+    "img1": "/img/palmares/reportero1.webp",
+    "img2": "/img/palmares/reportero2.webp",
+    "imgp1": "/img/palmares/pequeños/m_reportero1.webp",
+    "imgp2": "/img/palmares/pequeños/m_reportero2.webp"
   },
   {
     "name1": "Mixwell",
@@ -163,10 +163,10 @@
     "comunidad2": "26.82",
     "streamer2": "37.8",
     "total2": "32.31",
-    "img1": "../../../public/img/palmares/jugador1.webp",
-    "img2": "../../../public/img/palmares/jugador2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_jugador1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_jugador2.webp"
+    "img1": "/img/palmares/jugador1.webp",
+    "img2": "/img/palmares/jugador2.webp",
+    "imgp1": "/img/palmares/pequeños/m_jugador1.webp",
+    "imgp2": "/img/palmares/pequeños/m_jugador2.webp"
   },
   {
     "name1": "AgenteMaxo",
@@ -177,10 +177,10 @@
     "comunidad2": "28.52",
     "streamer2": "29.7",
     "total2": "29.11",
-    "img1": "../../../public/img/palmares/roleplayer1.webp",
-    "img2": "../../../public/img/palmares/roleplayer.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_roleplayer1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_roleplayer2.webp"
+    "img1": "/img/palmares/roleplayer1.webp",
+    "img2": "/img/palmares/roleplayer.webp",
+    "imgp1": "/img/palmares/pequeños/m_roleplayer1.webp",
+    "imgp2": "/img/palmares/pequeños/m_roleplayer2.webp"
   },
   {
     "name1": "papi Gavi",
@@ -191,10 +191,10 @@
     "comunidad2": "25.14",
     "streamer2": "54",
     "total2": "39.57",
-    "img1": "../../../public/img/palmares/baile1.webp",
-    "img2": "../../../public/img/palmares/baile2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_baile1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_baile2.webp"
+    "img1": "/img/palmares/baile1.webp",
+    "img2": "/img/palmares/baile2.webp",
+    "imgp1": "/img/palmares/pequeños/m_baile1.webp",
+    "imgp2": "/img/palmares/pequeños/m_baile2.webp"
   },
   {
     "name1": "Agustin51",
@@ -205,10 +205,10 @@
     "comunidad2": "23.06",
     "streamer2": "18.9",
     "total2": "20.98",
-    "img1": "../../../public/img/palmares/enfadado1.webp",
-    "img2": "../../../public/img/palmares/enfadado2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_enfadado1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_enfadado2.webp"
+    "img1": "/img/palmares/enfadado1.webp",
+    "img2": "/img/palmares/enfadado2.webp",
+    "imgp1": "/img/palmares/pequeños/m_enfadado1.webp",
+    "imgp2": "/img/palmares/pequeños/m_enfadado2.webp"
   },
   {
     "name1": "Ibai",
@@ -219,10 +219,10 @@
     "comunidad2": "27.73",
     "streamer2": "43.2",
     "total2": "35.46",
-    "img1": "../../../public/img/palmares/fail1.webp",
-    "img2": "../../../public/img/palmares/fail2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_fail1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_fail2.webp"
+    "img1": "/img/palmares/fail1.webp",
+    "img2": "/img/palmares/fail2.webp",
+    "imgp1": "/img/palmares/pequeños/m_fail1.webp",
+    "imgp2": "/img/palmares/pequeños/m_fail2.webp"
   },
   {
     "name1": "El Kun",
@@ -233,9 +233,9 @@
     "comunidad2": "21.86",
     "streamer2": "51.3",
     "total2": "36.58",
-    "img1": "../../../public/img/palmares/clip1.webp",
-    "img2": "../../../public/img/palmares/clip2.webp",
-    "imgp1": "../../../public/img/palmares/pequeños/m_clip1.webp",
-    "imgp2": "../../../public/img/palmares/pequeños/m_clip2.webp"
+    "img1": "/img/palmares/clip1.webp",
+    "img2": "/img/palmares/clip2.webp",
+    "imgp1": "/img/palmares/pequeños/m_clip1.webp",
+    "imgp2": "/img/palmares/pequeños/m_clip2.webp"
   }
 ]

@@ -1,39 +1,39 @@
 {
   "imgs": [
     {
-      "url": "../../../public/img/galeria/galeria1.webp",
+      "url": "/img/galeria/galeria1.webp",
       "alt": "foto de Ibai"
     },
     {
-      "url": "../../../public/img/galeria/galeria2.webp",
+      "url": "/img/galeria/galeria2.webp",
       "alt": "foto de TheGref"
     },
     {
-      "url": "../../../public/img/galeria/galeria3.webp",
+      "url": "/img/galeria/galeria3.webp",
       "alt": "foto de Auron"
     },
     {
-      "url": "../../../public/img/galeria/galeria4.webp",
+      "url": "/img/galeria/galeria4.webp",
       "alt": "foto de Cristini"
     },
     {
-      "url": "../../../public/img/galeria/galeria5.webp",
+      "url": "/img/galeria/galeria5.webp",
       "alt": "foto de todos reunidos"
     },
     {
-      "url": "../../../public/img/galeria/galeria6.webp",
+      "url": "/img/galeria/galeria6.webp",
       "alt": "foto de jagger boxeador"
     },
     {
-      "url": "../../../public/img/galeria/galeria7.webp",
+      "url": "/img/galeria/galeria7.webp",
       "alt": "foto de 2 desconocidos"
     },
     {
-      "url": "../../../public/img/galeria/galeria8.webp",
+      "url": "/img/galeria/galeria8.webp",
       "alt": "foto de jagger boxeador 2"
     },
     {
-      "url": "../../../public/img/galeria/galeria9.webp",
+      "url": "/img/galeria/galeria9.webp",
       "alt": "foto de la gala"
     }
   ]
