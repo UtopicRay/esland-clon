@@ -59,4 +59,15 @@ const { currentLocale } = Astro;
       }
     </style>
   </body>
+  <script>
+    import scrollreveal from "scrollreveal";
+    const sr = scrollreveal();
+    sr.reveal(".revelar", {
+      origin: "bottom",
+      duration: 1000, // Animation duration in milliseconds
+      delay: 200, // Delay before starting the animation
+      opacity: 0, // Initial opacity (0 for fully transparent)
+      viewFactor: 0.5,
+    });
+  </script>
 </html>
