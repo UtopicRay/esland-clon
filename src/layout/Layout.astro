@@ -3,6 +3,7 @@ import Header from "../components/Header.astro";
 import "@fontsource-variable/sora";
 import Prefooter from "../components/Prefooter.astro";
 import Footer from "../components/Footer.astro";
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 const { title } = Astro.props;
 const { currentLocale } = Astro;
 ---
@@ -21,7 +22,20 @@ const { currentLocale } = Astro;
     <slot />
     <Prefooter />
     <Footer />
-    <style is:global>
+    <SpeedInsights/>
+  </body>
+  <script>
+    import scrollreveal from "scrollreveal";
+    const sr = scrollreveal();
+    sr.reveal(".revelar", {
+      origin: "bottom",
+      duration: 1000, // Animation duration in milliseconds
+      delay: 200, // Delay before starting the animation
+      opacity: 0, // Initial opacity (0 for fully transparent)
+      viewFactor: 0.5,
+    });
+  </script>
+     <style is:global>
       * {
         font-family: "Sora Variable", sans-serif;
         color-scheme: dark;
@@ -58,16 +72,4 @@ const { currentLocale } = Astro;
         text-decoration: dashed white;
       }
     </style>
-  </body>
-  <script>
-    import scrollreveal from "scrollreveal";
-    const sr = scrollreveal();
-    sr.reveal(".revelar", {
-      origin: "bottom",
-      duration: 1000, // Animation duration in milliseconds
-      delay: 200, // Delay before starting the animation
-      opacity: 0, // Initial opacity (0 for fully transparent)
-      viewFactor: 0.5,
-    });
-  </script>
 </html>
