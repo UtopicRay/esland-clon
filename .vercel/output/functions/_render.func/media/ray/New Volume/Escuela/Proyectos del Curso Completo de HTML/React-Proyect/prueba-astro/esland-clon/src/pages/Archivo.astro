@@ -1,0 +1,17 @@
+---
+import ArchivoPageSection from "../components/Archivo/ArchivoPageSection.astro";
+import Contador from "../components/Archivo/Contador.astro";
+import EdicionSection from "../components/Archivo/EdicionSection.astro";
+import Galeria from "../components/Archivo/Galeria.astro";
+import Palmares from "../components/Archivo/Palmares.astro";
+import Layout from "../layout/Layout.astro";
+export const prerender = false;
+---
+
+<Layout title="Archivo">
+  <ArchivoPageSection />
+  <EdicionSection />
+  <Palmares />
+  <Galeria />
+  <Contador />
+</Layout>
