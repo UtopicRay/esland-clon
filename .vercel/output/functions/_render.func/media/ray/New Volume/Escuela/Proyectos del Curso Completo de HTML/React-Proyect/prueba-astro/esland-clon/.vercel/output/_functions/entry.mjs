@@ -2,7 +2,7 @@ import 'node:fs';
 import { e as appendForwardSlash, j as joinPaths, t as trimSlashes, s as slash, p as prependForwardSlash, r as removeTrailingForwardSlash, f as collapseDuplicateSlashes } from './chunks/astro/assets-service_ADfHcUNc.mjs';
 import { serialize, parse } from 'cookie';
 import { A as AstroError, R as ResponseSentError, l as MiddlewareNoDataOrNextCalled, n as MiddlewareNotAResponse, G as GetStaticPathsRequired, o as InvalidGetStaticPathsReturn, p as InvalidGetStaticPathsEntry, q as GetStaticPathsExpectedParams, t as GetStaticPathsInvalidRouteParam, P as PageNumberParamNotFound, N as NoMatchingStaticPathFound, u as PrerenderDynamicEndpointPathCollide, v as LocalsNotAnObject, w as ASTRO_VERSION, C as ClientAddressNotAvailable, S as StaticClientAddressNotAvailable, x as renderEndpoint, y as ReservedSlotName, z as renderSlotToString, B as renderJSX, D as chunkToString, F as CantRenderPage, H as renderPage$1 } from './chunks/astro_o0UGqiVn.mjs';
-import { l as levels, g as getEventPrefix, L as Logger, A as AstroIntegrationLogger, manifest } from './manifest_-cVv-maY.mjs';
+import { l as levels, g as getEventPrefix, L as Logger, A as AstroIntegrationLogger, manifest } from './manifest_tnH3C0BX.mjs';
 import 'kleur/colors';
 import 'html-escaper';
 import 'clsx';
@@ -2106,9 +2106,9 @@ const adapter = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 }, Symbol.toStringTag, { value: 'Module' }));
 
 const _page0  = () => import('./chunks/generic_gYXFXZ6A.mjs');
-const _page1  = () => import('./chunks/index_z0mQ2bUC.mjs');
-const _page2  = () => import('./chunks/Archivo_isbNTe3y.mjs');
-const _page3  = () => import('./chunks/Info_5MELe85m.mjs');const pageMap = new Map([["node_modules/astro/dist/assets/endpoint/generic.js", _page0],["src/pages/index.astro", _page1],["src/pages/Archivo.astro", _page2],["src/pages/Info.astro", _page3]]);
+const _page1  = () => import('./chunks/index_4eT5KLlC.mjs');
+const _page2  = () => import('./chunks/Archivo_Z_31-N1b.mjs');
+const _page3  = () => import('./chunks/Info_sgqNott-.mjs');const pageMap = new Map([["node_modules/astro/dist/assets/endpoint/generic.js", _page0],["src/pages/index.astro", _page1],["src/pages/Archivo.astro", _page2],["src/pages/Info.astro", _page3]]);
 const _manifest = Object.assign(manifest, {
 	pageMap,
 	renderers,
