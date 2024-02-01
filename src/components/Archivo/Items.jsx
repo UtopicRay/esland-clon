@@ -29,7 +29,7 @@ export function Items() {
     <div
       id="custom-controls-gallery"
       className="relative w-full"
-      data-carousel="slide"
+      data-carousel="static"
     >
       <div id="important" className="md:grid grid-cols-3 gap-4 pswp-gallery gallery hover:scale-120 hidden">
         {imagen.map((img, index) => (
