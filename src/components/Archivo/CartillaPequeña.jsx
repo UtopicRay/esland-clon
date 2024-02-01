@@ -2,7 +2,7 @@ import { UseChangeCard } from "../hook/useChangeCard";
 export function CartillaPequeña({object}) {
     const  {element}= UseChangeCard(object);
     return (
-    <div div id="card-peque" className={`lg:hidden block ${(object%2==0)?'animate-fade-down':'animate-fade-up'} animate-duration-300`}>
+    <div div id="card-peque" className={`lg:hidden block ${(object%2==0)?'animate-fade-down':'animate-fade-up'} animate-duration-300 w-full`}>
       <div
         id="cartilla-pequeña"
         className="bg-[#1682c7] flex w-full "
@@ -15,7 +15,7 @@ export function CartillaPequeña({object}) {
         <div className="bg-white w-12 h-8 text-black mt-auto relative right-[3rem] text-center">
           <p className={`puesto text-xl font-bold`}>1ro</p>
         </div>
-        <div className="px-5 m-auto [&&>h5]:text-black [&&>h5]:font-semibold uppercase text-sm">
+        <div className="m-auto [&&>h5]:text-black [&&>h5]:font-semibold uppercase text-sm">
           <h6>{element.name1}</h6>
           <h5 >
             comunidad:
@@ -44,7 +44,7 @@ export function CartillaPequeña({object}) {
         <div className="bg-white w-12 h-8 text-black mt-auto relative right-[3rem] text-center">
           <p className={`puesto text-xl font-bold`}>2do</p>
         </div>
-        <div className="px-5  [&&>h5]:text-black [&&>h5]:font-semibold uppercase m-auto">
+        <div className="[&&>h5]:text-black [&&>h5]:font-semibold uppercase m-auto">
           <h6>{element.name2}</h6>
           <h5>
             comunidad:
